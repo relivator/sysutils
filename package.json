@@ -1,0 +1,15 @@
+{
+  "name": "sysutils",
+  "module": "src/mod.ts",
+  "type": "module",
+  "scripts": {
+    "sysutils": "bun src/mod.ts",
+    "sysutils:env": "bun sysutils append Path C:/msys64/ucrt64/bin --persist --yes"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
